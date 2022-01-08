@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg px-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logoMINAE.png" alt="" class="img-fluid">
+                </a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Organización</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trámites</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Funcionarios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/rana1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/rana2.jpg" class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/rana3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <main class="container">
+        <section id="sct-institucion" class="row py-5 d-flex justify-content-between">
+            <div class="col-7">
+                <h2>Sitio institucional del MINAE</h2>
+                <p>El Ministerio de Ambiente y Energía presenta al público su portal institucional, donde podrán encontrar información acerca de los servicios y los trámites que los ciudadanos pueden realizar en cada una de sus dependencias.</p>
+                <img src="imgs/ciudad.png" alt="" class="img-fluid">
+            </div>
+            <aside class="col-4">
+                <h3>Viceministerios del MINAE</h3>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Viceministerio de Ambiente
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>El Viceministerio de Ambiente es el responsable de velar y promover el desarrollo de estrategias, políticas y planes que procuren la conservación de la diversidad biológica, in situ y ex situ, así como la distribución justa
+                                    y equitativa de los beneficios derivados de los elementos de la biodiversidad, para el mejoramiento de la calidad de vida de la población.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Viceministerio de Energía y CA
+                        </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>El Viceministerio de Energía y Calidad Ambiental es el responsable institucional de la agenda energética nacional, encargado de generar las directrices, asegurar el cumplimiento de las normativas relacionadas con las actividades
+                                    productivas del sector energético y velar por las competencias legales otorgadas al Minae a fin de promover la evaluación, medición y seguimiento de las obras, actividades y proyectos en ese ámbito.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Viceministerio de Agua y mares
+                        </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>El Viceministerio de Agua y Mares es el encargado de la conservación y promoción del uso sostenible de los recursos hídricos, costeros y marinos por medio de la coordinación de políticas, estrategias y planes entre las
+                                    instituciones competentes hacia la gestión integrada de los recursos, promoviendo la participación de diversos sectores, que permitan abordajes integrales en la gestión de los recursos hídricos, marinos y costeros.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+    </main>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

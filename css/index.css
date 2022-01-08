@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    background: #303030;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link.active {
+    color: #8fbe20;
+}
+
+.navbar .container-fluid .navbar-brand {
+    width: 105px;
+}
+
+#carouselExampleFade .carousel-inner {
+    height: 60vh;
+}
+
+.carousel-inner .carousel-item>img {
+    transform: translateY(-15%);
+}
